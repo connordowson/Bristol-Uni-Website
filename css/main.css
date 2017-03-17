@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*nav ul li{
+    background-color: pink;
+}*/
+
+nav ul, nav img{
+    padding: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13pt;
+    font-weight: 400;
+}
+
+nav ul li:last-child{
+    margin-right: 0;
+}
+
+nav ul li:hover{
+    cursor: pointer;
+}
+
+#nav-1{
+    background-color: #BF2F38;
+}
+
+#nav-1{
+    color: white;
+}
+
+#nav-2{
+    background-color: white;
+}
+
+#nav-2 ul li{
+    color: #BF2F38;
+}
+
+#nav-3{
+    background-color: #222;
+}
+
+#nav-3 ul li{
+    color: #BF2F38;
+}
+
+#nav-4{
+    background-color: white;
+}
+
+#nav-4 ul li{
+    color: #222;
+}
+
+#nav-5{
+    background-color: #BF2F38;
+}
+
+#nav-5 ul li{
+    color: #222;
+}
+
+#nav-6{
+    background-color: #222;
+}
+
+#nav-6 ul li{
+    color: white;
+}
+
+/*Reference for sliding underline - http://bradsknutson.com/blog/css-sliding-underline/*/
+
+li:after, .active:after{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 0px;
+    width: 100%;
+    background: transparent;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+
+li:hover:after{
+    background: #BF2F38;
+    height: 3px;
+}
+
+.active:after{
+    height: 3px;
+    background-color: #BF2F38;
+}
