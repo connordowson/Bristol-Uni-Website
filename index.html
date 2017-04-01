@@ -6,107 +6,87 @@
     <title> UoB Gloucestershire Academy </title>
     <link href="css/main.css" type="text/css" rel="stylesheet">
     <link rel="icon" href="img/favicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Cabin:300,400|Roboto:300,400" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/slideshow.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cabin:300,400|Roboto:300,400|Roboto+Slab" rel="stylesheet">
 </head>
 
 <body>
 
-    <nav id="nav-1">
+    <nav>
 
-        <img src="img/logo-nav.png" alt="UoB logo" height="60px">
+        <img src="img/logo-nav-red-white.svg" alt="UoB logo" height="60px">
 
         <ul>
-            <li> Home <div class="bar"> </div> </li>
-            <li> Accomodation </li>
-            <li> Forms </li>
-            <li> Directions </li>
-            <li> FAQ </li>
-            <li> Leisure </li>
-            <li> Transport </li>
-            <li> UoB Newsletter </li>
+            <li class="active"> <a href="index.html"> Home </a> </li>
+            <li id="accomodation"> <a href="accomodation.html"> Accomodation </a>
+
+                 <div class="dropdown">
+                     <a href="formal_place.html"> Formal Place </a>
+                     <a href="henley_court.html"> Henley Court </a>
+                     <a href="whitfield_house.html"> Whitfield House </a>
+                     <a href="caduceus_house.html"> Caduceus House </a>
+                     <a href="sandford_mill_road.html"> Sandford Mill Road </a>
+                 </div>
+
+             </li>
+            <li id="student-info">  <a href="student_info.html"> Student Info </a>
+
+                <div class="dropdown">
+                    <a href="#"> Leisure </a>
+                    <a href="#"> Forms </a>
+                    <a href="#"> General Info (FAQ) </a>
+                </div>
+
+            </li>
+
+            <li id="contact-us"> <a href="contact_us.html"> Contact Us </a>
+
+                <div class="dropdown">
+                    <a href="absence.html"> Request to absence </a>
+                    <a href="leave.html"> Request to leave </a>
+                    <a href="directions.html"> Directions </a>
+                </div>
+
+            </li>
+            <li> <a href="newsletter.html"> UoB Newsletter </a> </li>
+        </ul>
 
     </nav>
 
-    <nav id="nav-2">
-
-        <img src="img/logo-nav-red-black.png" alt="UoB logo" height="60px">
-
-        <ul>
-            <li> Home </li>
-            <li> Accomodation </li>
-            <li> Forms </li>
-            <li> Directions </li>
-            <li> FAQ </li>
-            <li> Leisure </li>
-            <li> Transport </li>
-            <li> UoB Newsletter </li>
-
     </nav>
 
-    <nav id="nav-3">
+        <div id="page-wrapper">
 
-        <img src="img/logo-nav-red-white.png" alt="UoB logo" height="60px">
+        <div id="page-content">
 
-        <ul>
-            <li> Home </li>
-            <li> Accomodation </li>
-            <li> Forms </li>
-            <li> Directions </li>
-            <li> FAQ </li>
-            <li> Leisure </li>
-            <li> Transport </li>
-            <li> UoB Newsletter </li>
+        <h1> Home Page </h1>
 
-    </nav>
+        <div id="home-wrapper">
 
-    <nav id="nav-4">
+        <div id="home-text">
 
-        <img src="img/logo-nav-red-black.png" alt="UoB logo" height="60px">
+            <p> The Gloucestershire Academy is one of seven bodies of teachers that delivers the 3rd, 4th and 5th year of the University of Bristol Undergraduate Medical Student Curriculum. It is the largest provider outside Bristol itself. </p> <br>
 
-        <ul>
-            <li> Home </li>
-            <li> Accomodation </li>
-            <li> Forms </li>
-            <li> Directions </li>
-            <li> FAQ </li>
-            <li> Leisure </li>
-            <li> Transport </li>
-            <li> UoB Newsletter </li>
+            <p> All eleven units of the curriculum are delivered in part or in total and all parts of the Primary Care Service, the Gloucestershire NHS Foundation Hospitals Trust and the Gloucestershire 2Gether Trust is used in doing so. Every unit of the curriculum is led locally by a unit co-ordinator and the unit is delivered through unit tutors and a body of teachers, both doctors and other professionals, relevant to that unit. The unit co-ordinators link with the unit leads at the University and the unit co-ordinators from the other six academies. Hence the provision of education for student doctors by the University of Bristol in Gloucestershire is designed to be consistent with what is envisaged centrally and what is delivered within the other 6 academies. </p> <br>
 
-    </nav>
+            <p> The University of Bristol Medical Dean in Gloucestershire is Dr Phil Davies. Our Undergraduate Medical Education Manager is Angie Coulson with administrative support in the university offices provided by a team of 2 Administrators and 3 Administration Assistants. The University of Bristol Offices are located in Redwood Education Centre on the Gloucestershire Royal Hospital campus but the University Administrator can also be found on Tuesdays at the Sandford Education Centre in Cheltenham. Further Academy contacts can be found here: Academy Contacts </P> <br>
 
-    <nav id="nav-5">
+            <p> As well as delivering the curriculum, the clinicians in Gloucestershire also participate in the Objective Structured Clinical Examination (OSCE) finals examination at Bristol and the Yr4 OSCE’s held at Sandford Education Centre, Cheltenham in June each year. They also join with colleagues from the other academies to examine the final Objective Structured Long case Examination Record (OSLER) examinations in Gloucester.</p>
 
-        <img src="img/logo-nav.png" alt="UoB logo" height="60px">
+        </div>
 
-        <ul>
-            <li> Home </li>
-            <li> Accomodation </li>
-            <li> Forms </li>
-            <li> Directions </li>
-            <li> FAQ </li>
-            <li> Leisure </li>
-            <li> Transport </li>
-            <li> UoB Newsletter </li>
+        <div id="home-slideshow">
 
-    </nav>
+            <img src="img/uni.jpg" width="500px">
 
-    <nav id="nav-6">
+        </div>
 
-        <img src="img/logo-nav-red-white.png" alt="UoB logo" height="60px">
+    </div>
 
-        <ul>
-            <li class="active"> Home </li>
-            <li> Accomodation </li>
-            <li> Forms </li>
-            <li> Directions </li>
-            <li> FAQ </li>
-            <li> Leisure </li>
-            <li> Transport </li>
-            <li> UoB Newsletter </li>
+    </div>
 
-    </nav>
-
+    </div>
 
 </body>
 
